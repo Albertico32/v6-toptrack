@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "firebase": "^10.6.0",
+    "firebaseui": "^6.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.19.5"
+  },
+  "scripts": {
+    "build": "esbuild ./public/src/main.js --bundle --outfile=./public/src/main3.js"
+  }
+}
