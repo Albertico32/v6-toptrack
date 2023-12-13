@@ -1,12 +1,12 @@
 {
-  "dependencies": {
-    "firebase": "^10.6.0",
-    "firebaseui": "^6.1.0"
-  },
-  "devDependencies": {
-    "esbuild": "0.19.5"
-  },
+  "name": "vs6-toptrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "esbuild ./public/src/main.js --bundle --outfile=./public/src/main3.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
